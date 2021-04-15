@@ -106,6 +106,7 @@ h1 {
     height: 500px;
     margin: calc(50vh - 250px) auto;
     background-image: url(C3logo.png);
+    background-size: 500px;
     background-repeat:  no-repeat;
     border-radius: 100%;
     animation: sk-scaleout 1.0s infinite ease-in-out;
