@@ -1,7 +1,7 @@
 window.onload = function() {
     const spinner = document.getElementById('loading');
     // タイムアウト時間の指定
-    setTimeout(addCss, 時間(ms), spinner);
+    setTimeout(addCss, 0, spinner);
 }
 
 function addCss(spinner) {
