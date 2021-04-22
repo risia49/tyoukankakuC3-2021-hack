@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     /*↓ここ*/
+    background: color #f0ffff;
 }
 
 .self-sheet {
@@ -10,6 +11,7 @@ body {
     height: 1390px;
     overflow: hidden;
     /*↓ここ*/
+    background: color #f0ffff;
 }
 
 .intro1, .intro2, .intro3 {
@@ -17,6 +19,7 @@ body {
     width: 50%;
     height: 100%;
     /*↓ここ*/
+    font-size: 20px;
 }
 
 .intro1 {
@@ -103,6 +106,9 @@ h1 {
     border-radius: 100%;
     animation: sk-scaleout 1.0s infinite ease-in-out;
     /*↓ここ*/
+    background-image: url(C3logo.png);
+    background-size: 200px;
+
 }
 /* Loading Animation */
 @keyframes sk-scaleout {
